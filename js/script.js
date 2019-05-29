@@ -26,3 +26,10 @@ average(1,2,3,4);
 
 const grades = [1, 5, 5, 5, 4, 3, 3, 2, 1];
 average(...grades);
+
+//task 5
+
+const name = [1, 4, 'Iwona', false, 'Nowak'];
+const [first, second, firstname, fourth, lastname] = name;
+
+console.log(firstname, lastname);
